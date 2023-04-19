@@ -1,0 +1,32 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+/*
+Autora : Julia Leal
+Data: 19/04/2023
+
+
+*/
+
+
+
+int main()
+{
+    char conc;
+    printf("Digite a inicial da concession\xA0ria:");
+
+    scanf("%c", &conc);
+    switch(conc)
+    {
+    case 'F': printf("FIAT\n"); break;
+    case 'V': printf("VOLKS\n");break;
+    case 'R': printf("RENAULT"); break;
+    case 'H': printf("HUNDAI");break;
+
+    default: printf("Concession\A0ria nao encontrada\n");
+
+
+    }
+
+}
