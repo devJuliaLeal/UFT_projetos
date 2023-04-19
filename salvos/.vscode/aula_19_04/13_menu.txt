@@ -1,21 +1,5 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <locale.h>
-
-/*
-Autora : Julia Leal
-Data: 19/04/2023
-
-
-*/
-
-
-
-int main()
-{
-
 setlocale(LC_ALL, "Portuguese_Brazil");
-    char opt;
+    char opt:
 
         do
         {
@@ -33,4 +17,3 @@ setlocale(LC_ALL, "Portuguese_Brazil");
         }
     while (opt != 'q');
     return 0;
-}

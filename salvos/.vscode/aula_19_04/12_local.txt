@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <>
+
+/*
+Autora : Julia Leal
+Data: 19/04/2023
+
+
+*/
+
+
+
+int main()
+{
+
+    setlocale(LC_ALL, "Portuguese_Brazil")
+
+
+}
+
