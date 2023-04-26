@@ -6,11 +6,12 @@ int main()
 {
     setlocale(LC_ALL,"Portuguese_Brazil");
 
-   int a, b, c;
-
-   for(a=0, b=0, c=0; a+b+c<=50; a++, b++, c++)
-        printf("%3d\n", a+b+c);
-
+   unsigned k, j;
+   for (k=7; k>=1; k--)
+   {
+       j = k*k*k;
+       printf("o cubo de %d é %3d\n", k, j);
+   }
 
 
 }
