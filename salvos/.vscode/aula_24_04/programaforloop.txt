@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <locale.h>
+
+int main()
+{
+    setlocale(LC_ALL,"Portuguese_Brazil");
+/*==================================================================================*/
+
+    int chute, number;
+
+    printf("Coloque um número: ");
+    scanf("%d", &number);
+    system("CLS");
+
+    for (chute=0; chute!=number; )
+    {
+        printf("Tente acertar o número: ");
+        scanf("%d", &chute);
+    }
+printf("Acertou!\n");
+
+
+}

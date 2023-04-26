@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1682515876 source:c:\users\uft\documents\julia\aulasdias260423\aulas\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+

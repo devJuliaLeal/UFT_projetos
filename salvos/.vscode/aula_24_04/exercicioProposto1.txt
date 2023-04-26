@@ -1,0 +1,30 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <locale.h>
+
+int main()
+{
+    setlocale(LC_ALL,"Portuguese_Brazil");
+/*==================================================================================*/
+
+
+   unsigned degraus,
+    i,j,
+    aux=1;
+
+
+    printf("Entre com o cumero de degraus: ");
+    scanf("%d", &degraus);
+
+    for(i=0; i<degraus; i++)
+    {
+
+        for(j=0; j<aux; j++)
+            printf("#");
+
+        putchar('\n');
+        aux++;
+
+    }
+
+}

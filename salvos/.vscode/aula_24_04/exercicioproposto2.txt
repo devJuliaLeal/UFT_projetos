@@ -10,19 +10,14 @@ int main()
 
 
 
-int i, j, n;
-
-    printf("Introd. um N:");
-    scanf("%d", &n);
-
-
-    for(i=1, j=n; i<=n; i++, j--)
-       {
-
-        printf("%d %d", i, j);
-        putchar('\n');}
-
-
-
+int num, a, aux;
+printf("Insira um numero");
+    scanf("%d", &num);
+aux=num;
+    for(a=1; a<=num; a++){
+        printf("%d %d", a, aux);
+        aux--;
+        putchar('\n');
+    }
 
 }
