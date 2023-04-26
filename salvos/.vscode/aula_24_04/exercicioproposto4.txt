@@ -10,7 +10,18 @@ int main()
 
 
 
+int i, j;
+
+    printf("Introd. um N:");
+    scanf("%d", &j);
+
+
+    for(i=1; i<=j; i++)
+
+       {
+
+        printf("%d %d", i, j-i+1);
+        putchar('\n');}
 
 
 }
-
