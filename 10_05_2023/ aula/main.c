@@ -4,7 +4,7 @@
 #include <stdlib.h>
 #include <locale.h>
 
-/*--- BIBLIOTECAS ---*/
+/*--- FINAL BIBLIOTECAS ---*/
 
 
 /*--- PROTÓTIPO DAS FUNÇÕES ---*/
@@ -12,13 +12,13 @@
 float frequencia(int ra, int rb, int c);
 
 
-/*--- PROTÓTIPO DAS FUNÇÕES ---*/
+/*---FINAL PROTÓTIPO DAS FUNÇÕES ---*/
 
 
 
 /*---  FUNÇÃO PRINCIPAL ---*/
 
-/*---  FUNÇÃO PRINCIPAL ---*/
+/*--- FINAL FUNÇÃO PRINCIPAL ---*/
 
 
 
@@ -26,25 +26,14 @@ int main()
 {
 
 setlocale(LC_ALL, "Portuguese_Brazil");
+int num1, num2, num3;
 
-int ra, rb, c;
+printf("Digite um numero\n"); scanf("%d", &num1);
+printf("Digite um numero\n"); scanf(" %d", &num2);
+printf("Digite um numero\n"); scanf(" %d", &num3);
+printf("resultado : %.2f\n" , frequencia(num1, num2, num3));
 
-    printf("Digite ra: \n");
-    scanf("%d", &ra);
-
-
-    printf("Digite rb: \n");
-    scanf("%d", &rb);
-
-    printf("Digite c: \n");
-    scanf("%d", &c);
-
-float resultado = frequencia(ra, rb, c);
-
-printf("resultado : %f\n" , resultado);
-
-
-   return 0;
+    return 0;
 
 }
 
@@ -52,11 +41,10 @@ printf("resultado : %f\n" , resultado);
 
 float frequencia(int ra, int rb, int c)
 {
-    int f=0;
-    return f = (1.44)/(ra + 2*rb) * c;
+    return 1.44/((ra + 2*rb) * c);
 }
 
 
 
 
-/*--- DESENVOLVIMENTO DAS FUNÇÕES ---*/
+/*--- FINAL DESENVOLVIMENTO DAS FUNÇÕES ---*/
