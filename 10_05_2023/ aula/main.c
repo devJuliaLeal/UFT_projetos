@@ -18,7 +18,7 @@ float frequencia(int ra, int rb, int c);
 
 /*---  FUN플O PRINCIPAL ---*/
 
-/*--- FINAL FUN플O PRINCIPAL ---*/
+
 
 
 
@@ -36,6 +36,8 @@ printf("resultado : %.2f\n" , frequencia(num1, num2, num3));
     return 0;
 
 }
+/*--- FINAL FUN플O PRINCIPAL ---*/
+
 
 /*--- DESENVOLVIMENTO DAS FUN합ES ---*/
 
