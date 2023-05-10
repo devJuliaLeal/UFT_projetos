@@ -7,16 +7,16 @@
 /*--- BIBLIOTECAS ---*/
 
 
-/*--- PROTÓTIPO DAS FUNÇÕES ---*/
+/*--- PROTÃ“TIPO DAS FUNÃ‡Ã•ES ---*/
 
 void div_rest(int a, int b);
 
 
-/*--- PROTÓTIPO DAS FUNÇÕES ---*/
+/*--- PROTÃ“TIPO DAS FUNÃ‡Ã•ES ---*/
 
-/*---  FUNÇÃO PRINCIPAL ---*/
+/*---  FUNÃ‡ÃƒO PRINCIPAL ---*/
 
-/*---  FUNÇÃO PRINCIPAL ---*/
+/*---  FUNÃ‡ÃƒO PRINCIPAL ---*/
 
 
 
@@ -43,16 +43,15 @@ int num1, num2;
 
 
 
-
    return 0;
 
 }
 
-/*--- DESENVOLVIMENTO DAS FUNÇÕES ---*/
+/*--- DESENVOLVIMENTO DAS FUNÃ‡Ã•ES ---*/
 
 void div_rest(int a, int b)
 {
-    printf("divisão = %d\n", a/b);
+    printf("divisÃ£o = %d\n", a/b);
     printf("resto = %d\n", a%b);
 
 }
@@ -61,4 +60,4 @@ void div_rest(int a, int b)
 
 
 
-/*--- DESENVOLVIMENTO DAS FUNÇÕES ---*/
+/*--- DESENVOLVIMENTO DAS FUNÃ‡Ã•ES ---*/
