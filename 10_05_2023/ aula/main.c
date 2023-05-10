@@ -9,20 +9,12 @@
 
 /*--- PROTÓTIPO DAS FUNÇÕES ---*/
 
-void asteriscos();
-void sustenido();
-void dolar();
-void generica(char chr);
-void generica2 (int num2);
-
+void numeros();
 
 
 /*--- PROTÓTIPO DAS FUNÇÕES ---*/
 
-
 /*---  FUNÇÃO PRINCIPAL ---*/
-
-
 
 /*---  FUNÇÃO PRINCIPAL ---*/
 
@@ -34,88 +26,33 @@ int main()
 setlocale(LC_ALL, "Portuguese_Brazil");
 
 unsigned numero;
+int num2;
 
     while(1){
         printf("Digite um número: ");
         scanf("%d", &numero);
-        if(numero == 1) asteriscos();
-        if(numero == 2) sustenido();
-        if(numero == 3) dolar();
-        if(numero == 4) arroba();
-        if(numero == 5) generica('*');
-        if(numero == 6) generica2(2);
-
-
+         numeros(num2);
         if(!numero) break;
     }
 
-
-
-
-
-
-
+for ( ; ; )
    return 0;
 
 }
 
 /*--- DESENVOLVIMENTO DAS FUNÇÕES ---*/
 
-void asteriscos()
-
+void numeros()
 {
-    char asts;
-    for(asts=0; asts<10; asts++)
-        putchar('*');
-    putchar('\n');
+    int num2;
+    printf("Digite um numero:");
+    scanf("%d", &num2);
+    printf("+++++++++++++++++\n");
+    printf("|\t\t|\n");
+    printf("| N U M E R O %d |\n", num2);
+    printf("|\t\t|\n");
+    printf("+++++++++++++++++\n");
 }
-
-
-void sustenido()
-
-{
-    char asts;
-    for(asts=0; asts<10; asts++)
-        putchar('#');
-    putchar('\n');
-}
-
-void dolar()
-
-{
-    char asts;
-    for(asts=0; asts<10; asts++)
-        putchar('$');
-    putchar('\n');
-}
-void arroba()
-
-{
-    char asts;
-    for(asts=0; asts<10; asts++)
-        putchar('@');
-    putchar('\n');
-}
-
-
-void generica(char chr)
-{
-    int asts;
-    for(asts=0; asts<10; asts++)
-        putchar(chr);
-    putchar('\n');
-
-}
-
-void generica2(int num2)
-{
-    int asts;
-    for(asts=0; asts<num2; asts++)
-        putchar('&');
-    putchar('\n');
-
-}
-
 
 
 

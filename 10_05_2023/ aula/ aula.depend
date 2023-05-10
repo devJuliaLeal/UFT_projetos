@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1683719902 source:c:\users\uft\documents\julia\10_05_2023\ aula\main.c
+1683722361 source:c:\users\uft\documents\julia\10_05_2023\ aula\main.c
 	<stdio.h>
 	<stdlib.h>
 	<locale.h>
