@@ -9,10 +9,12 @@
 
 /*--- PROTÓTIPO DAS FUNÇÕES ---*/
 
-void div_rest(int a, int b);
-int soma(int a, int b)
+float frequencia(int ra, int rb, int c);
+
 
 /*--- PROTÓTIPO DAS FUNÇÕES ---*/
+
+
 
 /*---  FUNÇÃO PRINCIPAL ---*/
 
@@ -25,27 +27,21 @@ int main()
 
 setlocale(LC_ALL, "Portuguese_Brazil");
 
-int num1, num2;
+int ra, rb, c;
 
-    while(1)
+    printf("Digite ra: \n");
+    scanf("%d", &ra);
 
-    {
 
+    printf("Digite rb: \n");
+    scanf("%d", &rb);
 
-        resultado = soma(10,20) + soma(10, 20);
+    printf("Digite c: \n");
+    scanf("%d", &c);
 
-        printf("%d", resultado);
+float resultado = frequencia(ra, rb, c);
 
-        printf("Entre com valor\n");
-        scanf("%d", &num1);
-
-        printf("Entre com valor\n");
-        scanf(" %d", &num2);
-
-       div_rest(num1, num2);
-
-    }
-
+printf("resultado : %f\n" , resultado);
 
 
    return 0;
@@ -54,17 +50,11 @@ int num1, num2;
 
 /*--- DESENVOLVIMENTO DAS FUNÇÕES ---*/
 
-void div_rest(int a, int b)
+float frequencia(int ra, int rb, int c)
 {
-    printf("divisão = %d\n", a/b);
-    printf("resto = %d\n", a%b);
-
+    int f=0;
+    return f = (1.44)/(ra + 2*rb) * c;
 }
-int soma(int a, int b)
-{
-    return a+b;
-}
-
 
 
 
