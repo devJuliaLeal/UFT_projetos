@@ -10,7 +10,7 @@
 /*--- PROTÓTIPO DAS FUNÇÕES ---*/
 
 void div_rest(int a, int b);
-
+int soma(int a, int b)
 
 /*--- PROTÓTIPO DAS FUNÇÕES ---*/
 
@@ -30,6 +30,11 @@ int num1, num2;
     while(1)
 
     {
+
+
+        resultado = soma(10,20) + soma(10, 20);
+
+        printf("%d", resultado);
 
         printf("Entre com valor\n");
         scanf("%d", &num1);
@@ -54,6 +59,10 @@ void div_rest(int a, int b)
     printf("divisão = %d\n", a/b);
     printf("resto = %d\n", a%b);
 
+}
+int soma(int a, int b)
+{
+    return a+b;
 }
 
 
