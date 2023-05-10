@@ -13,7 +13,7 @@ int main()
     aux=1;
 
 
-    printf("Entre com o cumero de degraus: ");
+    printf("Entre com o numero de degraus: ");
     scanf("%d", &degraus);
 
     for(i=0; i<degraus; i++)
