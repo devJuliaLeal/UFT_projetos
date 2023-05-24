@@ -6,6 +6,17 @@
 
 
 /*--- FINAL BIBLIOTECAS ---*/
+
+/* ========================================================================= */
+/* --- Constantes --- */
+#define N 2
+#define pi 3.141592653589793
+
+
+
+/* ========================================================================= */
+/* --- FINAL Constantes --- */
+
 /* ========================================================================= */
 /* --- Macros --- */
 #define multip(a,b) a*b
@@ -16,9 +27,8 @@
 
 
 /*--- VARIAVEIS GLOBAIS ---*/
-int valor =5,
-    numero = 7;
-    teste= 15;
+int num =5;
+
 
 
 /*--- FINAL DAS VARIAVEIS LOCAIS ---*/
@@ -45,30 +55,10 @@ int main()
 setlocale(LC_ALL, "Portuguese_Brazil");
 
 
-//printf("Imprimindo resposta func = %d\n", func());
-
-//printf("Imprimindo resposta func = %d\n", func());
-
-//printf("Imprimindo resposta func = %d\n", func());
 
 
 
 
-int valor[500]={} ;
-valor[250]=30;
-valor[500]=30;
-
-
-
-
-printf("Valor  = %d\n",valor[0] );
-printf("Valor  = %d\n",valor[1]);
-printf("Valor  = %d\n",valor[250] );
-printf("Valor  = %d\n",valor[3] );
-printf("Valor  = %d\n",valor[500] );
-printf("Valor  = %d\n",valor[600] );
-
-//printf("%d\n", multip(6,2));
 
     return 0;
 
@@ -96,3 +86,4 @@ void func2()
 }
 
 /*--- FINAL DESENVOLVIMENTO DAS FUNCOES ---*/
+

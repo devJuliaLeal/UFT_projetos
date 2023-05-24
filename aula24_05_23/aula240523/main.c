@@ -6,9 +6,21 @@
 
 
 /*--- FINAL BIBLIOTECAS ---*/
+
+/* ========================================================================= */
+/* --- Constantes --- */
+#define N 2
+#define pi 3.141592653589793
+
+
+
+/* ========================================================================= */
+/* --- FINAL Constantes --- */
+
 /* ========================================================================= */
 /* --- Macros --- */
-#define multip(a,b) a*b
+//#define multip(a,b) a*b
+#define ativos 5
 
 
 /* ========================================================================= */
@@ -16,9 +28,8 @@
 
 
 /*--- VARIAVEIS GLOBAIS ---*/
-int valor =5,
-    numero = 7;
-    teste= 15;
+int num =5;
+
 
 
 /*--- FINAL DAS VARIAVEIS LOCAIS ---*/
@@ -45,30 +56,44 @@ int main()
 setlocale(LC_ALL, "Portuguese_Brazil");
 
 
-//printf("Imprimindo resposta func = %d\n", func());
-
-//printf("Imprimindo resposta func = %d\n", func());
-
-//printf("Imprimindo resposta func = %d\n", func());
-
-
-
-
-int valor[500]={} ;
-valor[250]=30;
-valor[500]=30;
+float
+    valor[ativos],
+    total=0.0,
+    subto[ativos],
+    aporte;
+int qtd[ativos],
+    i;
 
 
 
 
-printf("Valor  = %d\n",valor[0] );
-printf("Valor  = %d\n",valor[1]);
-printf("Valor  = %d\n",valor[250] );
-printf("Valor  = %d\n",valor[3] );
-printf("Valor  = %d\n",valor[500] );
-printf("Valor  = %d\n",valor[600] );
+printf("Digite o valor do aporte:");
+scanf(" %f", &aporte);
 
-//printf("%d\n", multip(6,2));
+
+for(i=0; i<ativos; i++)
+{
+
+    printf("Digite o ativo:\n" );
+    scanf("%f", &valor[i]);
+
+    printf("Digite a quatidade\n");
+    scanf(" %f", &qtd[i]);
+
+
+
+  }
+
+for(i=0; i<ativos; i++)
+    subto[i] = valor[i]*qtd[i];
+
+
+for(i=0; i<ativos; i++)
+    total += subto[i];
+
+printf("%f", total);
+
+
 
     return 0;
 
@@ -96,3 +121,4 @@ void func2()
 }
 
 /*--- FINAL DESENVOLVIMENTO DAS FUNCOES ---*/
+
