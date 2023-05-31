@@ -10,7 +10,7 @@ int main() {
 
     processaDadosHexa(dados, tamanho);
 
-    printf("Dados de saída: ");
+    printf("Dados de saÃ­da: ");
     imprimeDadosHexa(dados, tamanho);
 
     return 0;
