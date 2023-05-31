@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+
+    int vetor[6]= {1, 0, 5, -2, -5, 7};
+    int i;
+
+    for(i=0; i<6; i++){
+        printf("%d ", vetor[i]);
+    }
+
+}

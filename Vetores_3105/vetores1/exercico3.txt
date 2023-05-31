@@ -1,0 +1,106 @@
+
+/* ============================================================================
+
+    Linguagem C
+
+    Vetores ou Arrays ou Matriz unidimensional
+
+    Autor: JULIA
+    Data:  24 de Maio de 2023
+
+
+/* --- BIBLIOTECAS --- */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+/* --------------------------- MACROS ------------------------------- */
+
+
+/* ---------------------PROTOTIPO DAS FUNCOES ------------------------ */
+
+void func(int vet[]);
+void func3generica(int vet[], int N);
+int funcComIndex(int vet[], int N, int index);
+int func1(int vet[], int N, int index, int interval);
+
+
+/* ----------------------- VARIAVEIS GLOBAIS ------------------------- */
+#define num 10
+
+
+
+
+/* ---------------------- CONSTANTES --------------------------------- */
+
+
+
+/* ---------------------- FUNCAO PRINCIPAL --------------------------- */
+
+int main()
+{
+    float vrms[5] = {1.5, 3.8, 4.9, 5.7, 2.1};
+    int vet[num] = {12, 27, 4, 3, 2};
+
+    func3generica(vet, num);
+
+    func2parametros(vet, 7);
+
+    int i;
+    for(i=0; i<num; i++)
+        printf("VETOR 2 v[%d] = %d \n", i, vet[i], i, funcComIndex(vet, num, i));
+
+
+ for(i=0; i<num; i++)
+        printf("VETOR 3 v[%d] = %d \n", i, vet[i], i, func1(vet, num, i, 10));
+
+
+
+
+}
+
+
+
+
+/*------------------------DESENVOLVIMENTO DAS FUNCOES--------------------*/
+
+
+void func2parametros(int vet[], int N)
+{
+    int i;
+    for(i=0; i<N; i++)
+        printf("vetor v[%d] = %d \n", i, vet[i]);
+
+}
+
+void func3generica(int vet[], int N)
+{
+    int i;
+    for(i=0; i<N; i++)
+        printf("vetor v[%d] = %d \n", i, vet[i]);
+
+}
+int funcComIndex(int vet[], int N, int index){
+    int i;
+    for(i=0; i<N; i++){
+        vet[i] = 4*i;
+
+    }
+    return vet[index];
+
+}
+
+int func1(int vet[], int N, int index, int interval){
+    int i;
+    for(i=0; i<N; i++){
+        vet[i] = interval*i;
+
+    }
+    return vet[index];
+
+}
+
+
+
+
+

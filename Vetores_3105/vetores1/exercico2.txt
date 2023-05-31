@@ -1,0 +1,68 @@
+
+/* ============================================================================
+
+    Linguagem C
+
+    Vetores ou Arrays ou Matriz unidimensional
+
+    Autor: JULIA
+    Data:  24 de Maio de 2023
+
+
+/* --- BIBLIOTECAS --- */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+/* --------------------------- MACROS ------------------------------- */
+
+
+/* ---------------------PROTOTIPO DAS FUNCOES ------------------------ */
+
+void func(int vet[]);
+void func3generica(int vet[], int N);
+
+
+
+/* ----------------------- VARIAVEIS GLOBAIS ------------------------- */
+#define num 10
+
+
+
+
+/* ---------------------- CONSTANTES --------------------------------- */
+
+
+
+/* ---------------------- FUNCAO PRINCIPAL --------------------------- */
+
+int main()
+{
+    float vrms[5] = {1.5, 3.8, 4.9, 5.7, 2.1};
+    int v[num] = {12, 27, 4, 3, 2};
+
+    func(v);
+    func3generica(v, num);
+}
+
+
+
+
+/*------------------------DESENVOLVIMENTO DAS FUNCOES--------------------*/
+void func(int vet[5])
+{
+    int i;
+    for(i=0; i<5; i++)
+        printf("vetor v[%d] = %d \n", i, vet[i]);
+
+}
+
+
+
+void func3generica(int vet[], int N)
+{
+    int i;
+    for(i=0; i<N; i++)
+        printf("vetor v[%d] = %d \n", i, vet[i]);
+
+}
