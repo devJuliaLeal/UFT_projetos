@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1686135916 source:c:\users\uft\documents\julia\vetores_3105\lala\a.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+

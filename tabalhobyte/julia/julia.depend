@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1686140035 source:c:\users\uft\documents\julia\tabalhobyte\julia\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+
