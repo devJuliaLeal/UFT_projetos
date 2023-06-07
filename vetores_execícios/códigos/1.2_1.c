@@ -12,6 +12,7 @@ int main()
     {
         v[i] = 0;
     }
+    v[9] = 101; // Atribuição ao último elemento do array
 
     for (i = 0; i < 10; i++)
     {
