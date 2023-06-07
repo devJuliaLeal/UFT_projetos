@@ -3,9 +3,24 @@
 
 int main()
 {
-   int multDimen[3][4];
-   multDimen[0][0]=15;
+    int i,
+    j;
 
-printf("%d", multDimen[0][0]);
+   int mat[3][4] = {{5, 6, 10, 13},
+                    {0, 15, 62, 98},
+                    {11, 5, 7, 71}};
+
+for(i=0; i<3; i++){
+    for(j=0; j<4; j++)
+    {
+        printf("%d", mat[i][j]);
+        putchar("\n");
+    }
+     printf("\n");
+}
+
+
+
+
 
 }
